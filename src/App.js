@@ -7,19 +7,67 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <figure>
+            <img 
+              src="download.png"
+              alt="google"
+              id="App-header-image"
+            />
+          </figure>
         </header>
+        <main className="App=main">
+          <div id="search-box">
+            <label for="search-text" />
+            <input type="text" id="search-text" name="search-text" placeholder="Search Google or type a URL"/>
+            <div id="icon">
+              <i className="" />
+            </div>
+          </div>
+        </main>
+        <footer className="App-footer">
+          <figure className="footer-figure">
+            <img 
+            src="download (1).png"
+            alt=""
+            className="App-footer-img"
+            />
+          </figure>
+          <figure className="footer-figure">
+            <img 
+            src="download (2).png"
+            alt=""
+            className="App-footer-img"
+            />
+          </figure>
+          <figure className="footer-figure">
+            <img 
+            src="download (3).png"
+            alt=""
+            className="App-footer-img"
+            />
+          </figure>
+          <figure className="footer-figure">
+            <img 
+            src="download (4).png"
+            alt=""
+            className="App-footer-img"
+            />
+          </figure>
+          <figure className="footer-figure">
+            <img 
+            src="download (5).png"
+            alt=""
+            className="App-footer-img"
+            />
+          </figure>
+          <figure className="footer-figure">
+            <img 
+            src="download (6).png"
+            alt=""
+            className="App-footer-img"
+            />
+          </figure>
+        </footer>
       </div>
     );
   }
